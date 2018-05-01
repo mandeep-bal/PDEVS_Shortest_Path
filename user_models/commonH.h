@@ -1,9 +1,3 @@
-/*******************************************************************
-*
-*  DESCRIPTION: Common header file
-*
-* Note: Imported from old E-CD++ project (Daniella)
-*******************************************************************/
 
 
 #ifndef __COMMON_H

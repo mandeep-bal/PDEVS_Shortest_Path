@@ -1,9 +1,4 @@
-/*
- * SensorController.hpp
- *
- *  Created on: May 7, 2015
- *      Author: Daniella
- */
+
 
 #ifndef SensorController_HPP_
 #define SensorController_HPP_
@@ -24,7 +19,7 @@ namespace basic_models {
  * SensorController PDEVS Model():
  * - X = {(start_in, {START, STOP}); (distance_in, {DISTANCE}); (light1_in, {BRIGHT, DARK}); (light2_in, {BRIGHT, DARK}); (light3_in, {BRIGHT, DARK}); (light4_in, {BRIGHT, DARK})}
  * - Y = {(sctrl_ls1start_out, {START, STOP}); (sctrl_ls2start_out, {START, STOP}); (sctrl_ls3start_out, {START, STOP}); (sctrl_ls4start_out, {START, STOP}); (proxystart_out, {START, STOP }); (stopdata_out, {STOP, NO_OBSTACLE}); (lsdata_out, {ON_TRACK, GO_LEFT, GO_RIGHT }}
- * - S = {“PREP_START,” “WAIT_DATA,” “FOUND_LIGHT,” “FOUND_ALL_LIGHT,” “FOUND_DISTANCE,” “PREP_IDLE,” “IDLE”}
+ * - S = {â€œPREP_START,â€ â€œWAIT_DATA,â€ â€œFOUND_LIGHT,â€ â€œFOUND_ALL_LIGHT,â€ â€œFOUND_DISTANCE,â€ â€œPREP_IDLE,â€ â€œIDLEâ€}
  * - internal -> See DEVS Spec Doc
  * - external -> See DEVS Spec Doc
  * - out      -> See DEVS Spec Doc

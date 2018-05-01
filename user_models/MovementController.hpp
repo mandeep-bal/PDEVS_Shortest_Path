@@ -1,9 +1,3 @@
-/*
- * MovementController.hpp
- *
- *  Created on: July 25, 2015
- *      Author: Daniella
- */
 
 #ifndef MovementController_HPP_
 #define MovementController_HPP_
@@ -23,7 +17,7 @@ namespace basic_models {
  * MovementController PDEVS Model():
  * - X = {(mctrl_lsdata_in, {ON_TRACK, TURN_LEFT, TURN_RIGHT}); {(mctrl_proxydata_in, { NO_OBSTACLE,  STOP })}
  * - Y = {(mctrl_motor1_out, {goFwd, goBkwd stop}); (mctrl_motor2_out, {goFwd, goBkwd, stop})}
- * - S = {“PREP_MOVE_FWD,” “MOVE_FWD,” “PREP_TURN_LEFT,” TURN_LEFT “PREP_TURN_RIGHT, TURN_RIGHT” “PREP_STOP,” “STOP”, "IDLE"}
+ * - S = {â€œPREP_MOVE_FWD,â€ â€œMOVE_FWD,â€ â€œPREP_TURN_LEFT,â€ TURN_LEFT â€œPREP_TURN_RIGHT, TURN_RIGHTâ€ â€œPREP_STOP,â€ â€œSTOPâ€, "IDLE"}
  * - internal -> See DEVS Spec Doc
  * - external -> See DEVS Spec Doc
  * - out      -> See DEVS Spec Doc
